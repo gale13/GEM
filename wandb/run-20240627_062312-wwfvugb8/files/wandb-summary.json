@@ -1,0 +1,1 @@
+{"_wandb": {"runtime": 19}, "global_step": 1000, "_timestamp": 1719469413.6895692, "test/env_step": 0.0, "test/reward": -1823.31201171875, "test/length": 24.0, "test/reward_std": 0.0, "test/length_std": 0.0, "_runtime": 21.369194269180298, "_step": 1, "train/episode": 40.0, "train/reward": -1630.1544189453125, "train/length": 24.0}

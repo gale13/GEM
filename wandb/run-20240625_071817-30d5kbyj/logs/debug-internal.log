@@ -1,0 +1,668 @@
+2024-06-25 07:18:17,468 INFO    StreamThr :11238 [internal.py:wandb_internal():85] W&B internal server running at pid: 11238, started at: 2024-06-25 07:18:17.467240
+2024-06-25 07:18:17,470 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status
+2024-06-25 07:18:17,476 INFO    WriterThread:11238 [datastore.py:open_for_write():87] open: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/run-30d5kbyj.wandb
+2024-06-25 07:18:17,478 DEBUG   SenderThread:11238 [sender.py:send():378] send: header
+2024-06-25 07:18:17,479 DEBUG   SenderThread:11238 [sender.py:send():378] send: run
+2024-06-25 07:18:17,485 INFO    SenderThread:11238 [sender.py:_setup_resume():748] checking resume status for None/tianshou/30d5kbyj
+2024-06-25 07:18:20,578 INFO    SenderThread:11238 [dir_watcher.py:__init__():211] watching files in: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files
+2024-06-25 07:18:20,578 INFO    SenderThread:11238 [sender.py:_start_run_threads():1123] run started: 30d5kbyj with start time 1719299897.46743
+2024-06-25 07:18:20,603 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: check_version
+2024-06-25 07:18:20,604 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: check_version
+2024-06-25 07:18:20,960 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: run_start
+2024-06-25 07:18:20,972 DEBUG   HandlerThread:11238 [system_info.py:__init__():26] System info init
+2024-06-25 07:18:20,973 DEBUG   HandlerThread:11238 [system_info.py:__init__():41] System info init done
+2024-06-25 07:18:20,973 INFO    HandlerThread:11238 [system_monitor.py:start():194] Starting system monitor
+2024-06-25 07:18:20,973 INFO    SystemMonitor:11238 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-25 07:18:20,973 INFO    HandlerThread:11238 [system_monitor.py:probe():214] Collecting system info
+2024-06-25 07:18:20,975 INFO    SystemMonitor:11238 [interfaces.py:start():188] Started cpu monitoring
+2024-06-25 07:18:20,976 INFO    SystemMonitor:11238 [interfaces.py:start():188] Started disk monitoring
+2024-06-25 07:18:20,978 INFO    SystemMonitor:11238 [interfaces.py:start():188] Started gpu monitoring
+2024-06-25 07:18:20,979 INFO    SystemMonitor:11238 [interfaces.py:start():188] Started memory monitoring
+2024-06-25 07:18:20,981 INFO    SystemMonitor:11238 [interfaces.py:start():188] Started network monitoring
+2024-06-25 07:18:21,037 DEBUG   HandlerThread:11238 [system_info.py:probe():150] Probing system
+2024-06-25 07:18:21,042 DEBUG   HandlerThread:11238 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-25 07:18:21,042 DEBUG   HandlerThread:11238 [system_info.py:probe():198] Probing system done
+2024-06-25 07:18:21,043 DEBUG   HandlerThread:11238 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.10', 'python': '3.8.0', 'heartbeatAt': '2024-06-25T07:18:21.037576', 'startedAt': '2024-06-25T07:18:17.455161', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': '51530b7cc5e3', 'username': 'root', 'executable': '/opt/conda/envs/gdmopt/bin/python', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 1148.46875, 'min': 800.0, 'max': 2601.0}, 'cpu_freq_per_core': [{'current': 2601.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 900.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 900.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}, {'current': 1700.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2200.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2601.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}, {'current': 1700.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 2601.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 2601.0, 'min': 800.0, 'max': 2601.0}, {'current': 1700.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 900.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2500.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 900.0, 'min': 800.0, 'max': 2601.0}, {'current': 2100.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 1800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2200.0, 'min': 800.0, 'max': 2601.0}, {'current': 1800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 1800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 1800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 2200.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}], 'disk': {'/': {'total': 391.71098709106445, 'used': 297.66427993774414}}, 'gpu': 'NVIDIA A800-SXM4-80GB', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 1007.3253631591797}}
+2024-06-25 07:18:21,043 INFO    HandlerThread:11238 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-25 07:18:21,043 INFO    HandlerThread:11238 [system_monitor.py:probe():227] Publishing system info
+2024-06-25 07:18:21,043 DEBUG   HandlerThread:11238 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-25 07:18:21,584 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/conda-environment.yaml
+2024-06-25 07:18:24,167 DEBUG   HandlerThread:11238 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-25 07:18:24,172 INFO    HandlerThread:11238 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-25 07:18:24,186 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:18:24,188 DEBUG   SenderThread:11238 [sender.py:send():378] send: files
+2024-06-25 07:18:24,188 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-25 07:18:24,334 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-25 07:18:24,335 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: python_packages
+2024-06-25 07:18:24,337 DEBUG   SenderThread:11238 [sender.py:send():378] send: telemetry
+2024-06-25 07:18:24,338 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:18:24,339 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:18:24,344 INFO    HandlerThread:11238 [handler.py:handle_tbrecord():783] handling tbrecord: tbrecord {
+  log_dir: "log"
+  save: true
+}
+control {
+  relay_id: "3092b49d49894899871994f2f890b391"
+}
+_info {
+  stream_id: "30d5kbyj"
+}
+
+2024-06-25 07:18:24,346 DEBUG   HandlerThread:11238 [config_util.py:dict_from_config_file():70] no default config file found in config-defaults.yaml
+2024-06-25 07:18:24,581 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/conda-environment.yaml
+2024-06-25 07:18:24,582 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/requirements.txt
+2024-06-25 07:18:24,582 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:18:24,583 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-metadata.json
+2024-06-25 07:18:25,263 DEBUG   SenderThread:11238 [sender.py:send():378] send: telemetry
+2024-06-25 07:18:25,263 DEBUG   SenderThread:11238 [sender.py:send():378] send: tbrecord
+2024-06-25 07:18:25,263 DEBUG   SenderThread:11238 [sender.py:send():378] send: files
+2024-06-25 07:18:25,263 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file events.out.tfevents.1719299904.51530b7cc5e3.11104.0 with policy live
+2024-06-25 07:18:25,335 INFO    wandb-upload_0:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/9w4g2mab-wandb-metadata.json
+2024-06-25 07:18:25,514 INFO    wandb-upload_1:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/c3zjflfu-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:18:28,265 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:18:29,584 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:18:29,585 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:18:31,585 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:18:33,371 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:18:38,512 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:18:38,512 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:18:38,517 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:18:38,517 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:18:38,590 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:18:38,591 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:18:39,343 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:18:39,344 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:18:39,591 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:18:43,631 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:18:48,648 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:18:49,597 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:18:49,598 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/config.yaml
+2024-06-25 07:18:54,338 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:18:54,340 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:18:54,728 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:18:59,729 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:00,603 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:19:01,604 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:02,605 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:05,171 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:08,609 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:19:08,628 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:19:08,629 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:19:08,634 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:19:09,338 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:19:09,339 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:19:09,609 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:09,610 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:19:10,792 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:15,793 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:19,616 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:20,982 DEBUG   SystemMonitor:11238 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-25 07:19:20,994 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:19:20,997 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:24,339 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:19:24,340 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:19:26,819 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:28,621 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:19:29,622 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:30,286 INFO    wandb-upload_0:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/1hda9h4z-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:19:30,623 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:32,535 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:36,626 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:19:36,736 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:19:36,736 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:19:36,740 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:19:37,627 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:37,628 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:19:37,741 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:39,338 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:19:39,339 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:19:42,774 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:47,776 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:49,635 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:51,002 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:19:53,006 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:54,338 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:19:54,340 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:19:57,640 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:19:58,034 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:19:58,640 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:19:58,641 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:19:59,641 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:20:03,036 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:06,645 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:20:06,854 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:20:06,855 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:20:06,858 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:20:07,646 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:20:07,646 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:20:08,860 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:09,346 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:20:09,347 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:20:14,750 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:19,656 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:20:20,391 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:21,010 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:20:24,342 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:20:24,343 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:20:25,704 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:27,661 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:20:28,662 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:20:28,663 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:20:29,447 INFO    wandb-upload_1:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/x1xte9lq-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:20:30,663 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:20:30,886 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:35,887 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:36,667 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:20:36,970 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:20:36,971 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:20:36,974 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:20:37,667 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:20:38,668 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:20:39,346 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:20:39,348 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:20:41,707 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:46,708 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:50,675 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:20:51,018 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:20:52,022 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:54,344 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:20:54,345 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:20:57,360 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:20:57,679 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:20:58,680 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:21:00,681 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:21:02,659 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:06,095 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:21:06,095 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:21:06,096 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:21:06,685 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:21:06,686 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:21:08,099 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:08,686 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:21:09,347 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:21:09,348 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:21:13,655 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:18,656 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:20,693 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:21:21,028 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:21:24,032 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:24,348 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:21:24,349 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:21:27,698 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:21:28,698 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:21:29,481 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:34,482 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:36,211 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:21:36,212 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:21:36,216 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:21:36,703 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:21:36,704 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:21:37,651 INFO    wandb-upload_0:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/hs3k3t6q-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:21:38,704 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:21:39,353 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:21:39,355 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:21:39,761 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:44,762 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:50,408 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:50,712 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:21:51,036 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:21:54,352 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:21:54,352 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:21:55,774 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:21:57,716 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:21:58,717 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:01,362 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:05,730 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:22:06,333 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:22:06,334 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:22:06,337 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:22:06,730 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:06,731 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:22:07,338 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:09,353 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:22:09,353 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:22:12,755 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:17,758 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:20,780 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:21,044 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:22:23,048 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:24,353 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:22:24,354 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:22:27,785 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:22:28,786 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:28,787 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:22:28,865 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:30,787 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:33,866 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:36,453 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:22:36,454 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:22:36,458 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:22:36,791 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:22:36,792 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:22:37,630 INFO    wandb-upload_1:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/ubpm5zaf-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:22:38,793 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:39,353 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:22:39,354 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:39,355 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:22:44,818 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:50,427 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:50,800 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:51,052 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:22:54,354 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:22:54,356 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:22:55,715 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:22:55,803 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:22:56,804 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:22:56,805 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:22:58,805 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:01,169 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:04,562 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:23:04,563 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:23:04,567 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:23:04,809 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:23:04,809 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:23:06,570 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:06,810 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:09,354 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:23:09,356 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:23:11,807 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:16,808 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:20,818 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:21,065 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:23:22,071 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:24,360 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:23:24,361 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:23:24,821 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:23:26,822 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:27,740 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:32,741 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:33,679 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:23:33,680 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:23:33,684 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:23:33,826 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:23:33,827 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:23:34,827 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:38,687 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:39,362 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:23:39,363 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:23:44,025 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:49,026 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:50,837 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:51,067 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:23:52,838 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:52,839 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:23:53,649 INFO    wandb-upload_0:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/nlf5663d-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:23:54,280 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:23:54,409 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:23:54,410 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:23:54,839 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:23:59,855 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:00,790 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:24:00,791 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:24:00,794 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:24:00,843 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:24:00,843 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:24:02,844 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:24:05,797 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:09,371 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:24:09,372 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:24:10,812 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:15,813 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:20,855 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:24:21,075 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:24:21,079 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:21,861 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:24:22,861 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:24:24,401 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:24:24,402 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:24:26,757 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:29,865 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:24:29,905 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:24:29,906 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:24:29,909 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:24:30,866 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:24:30,867 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:24:31,911 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:36,912 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:39,371 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:24:39,372 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:24:42,743 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:47,744 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:50,878 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:24:51,083 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:24:51,878 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:24:52,879 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:24:52,880 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:24:53,034 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:24:54,403 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:24:54,404 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:24:54,880 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:24:58,843 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:00,025 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:25:00,026 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:25:00,029 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:25:00,884 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:25:00,885 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:25:02,885 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:25:04,031 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:09,032 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:09,376 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:25:09,377 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:25:14,860 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:20,025 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:20,896 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:25:20,896 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:25:21,091 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:25:21,721 INFO    wandb-upload_1:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/4tmln1az-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:25:22,897 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:25:24,451 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:25:24,452 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:25:25,833 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:28,901 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:25:29,142 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:25:29,143 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:25:29,146 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:25:29,901 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:25:30,902 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:25:31,148 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:36,149 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:39,379 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:25:39,379 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:25:40,908 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:25:41,859 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:46,860 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:49,913 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:25:50,914 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:25:51,099 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:25:52,102 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:54,412 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:25:54,413 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:25:57,846 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:25:58,919 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:25:59,255 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:25:59,256 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:25:59,260 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:25:59,919 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:26:00,920 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:26:03,261 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:08,262 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:09,385 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:26:09,386 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:26:10,925 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:26:13,787 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:18,789 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:18,931 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:26:19,931 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:26:20,932 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:26:21,107 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:26:24,111 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:24,425 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:26:24,426 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:26:27,365 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:26:27,366 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:26:27,370 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:26:27,936 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:26:27,937 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:26:28,937 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:26:29,371 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:34,372 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:39,386 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:26:39,387 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:26:39,777 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:40,944 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:26:44,778 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:47,949 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:26:48,735 INFO    wandb-upload_0:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/3gu1sgrd-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:26:48,949 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:26:50,476 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:51,114 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:26:54,425 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:26:54,426 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:26:55,616 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:26:55,954 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:26:56,480 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:26:56,481 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:26:56,485 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:26:56,954 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:26:56,955 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:27:01,487 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:06,488 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:09,387 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:27:09,388 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:27:10,963 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:27:11,715 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:16,717 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:17,967 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:27:18,968 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:27:21,121 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:27:22,125 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:24,391 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:27:24,393 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:27:25,590 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:27:25,591 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:27:25,594 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:27:25,972 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:27:25,973 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:27:26,972 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:27:27,595 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:32,596 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:37,598 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:39,390 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:27:39,391 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:27:40,981 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:27:42,815 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:45,984 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:27:46,985 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:27:48,622 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:51,129 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:27:53,818 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:27:53,989 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:27:54,390 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:27:54,391 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:27:54,712 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:27:54,713 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:27:54,716 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:27:54,990 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:27:54,990 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:27:59,719 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:04,720 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:09,395 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-25 07:28:09,395 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: stop_status
+2024-06-25 07:28:10,649 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:10,999 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:28:14,817 DEBUG   SenderThread:11238 [sender.py:send():378] send: exit
+2024-06-25 07:28:14,818 INFO    SenderThread:11238 [sender.py:send_exit():585] handling exit code: 0
+2024-06-25 07:28:14,819 INFO    SenderThread:11238 [sender.py:send_exit():587] handling runtime: 593
+2024-06-25 07:28:14,820 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:28:14,820 INFO    SenderThread:11238 [sender.py:send_exit():593] send defer
+2024-06-25 07:28:14,821 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:14,821 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-25 07:28:14,822 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:14,822 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-25 07:28:14,822 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 1
+2024-06-25 07:28:14,822 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:14,822 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-25 07:28:14,823 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:14,823 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-25 07:28:14,823 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 2
+2024-06-25 07:28:14,823 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:14,824 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-25 07:28:14,824 INFO    HandlerThread:11238 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-25 07:28:14,825 INFO    HandlerThread:11238 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-25 07:28:14,827 INFO    HandlerThread:11238 [interfaces.py:finish():200] Joined disk monitor
+2024-06-25 07:28:14,827 DEBUG   SystemMonitor:11238 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-25 07:28:14,828 DEBUG   SystemMonitor:11238 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-25 07:28:14,954 INFO    HandlerThread:11238 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-25 07:28:14,955 INFO    HandlerThread:11238 [interfaces.py:finish():200] Joined memory monitor
+2024-06-25 07:28:14,955 INFO    HandlerThread:11238 [interfaces.py:finish():200] Joined network monitor
+2024-06-25 07:28:14,957 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:14,957 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-25 07:28:14,957 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 3
+2024-06-25 07:28:14,958 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:14,958 DEBUG   SenderThread:11238 [sender.py:send():378] send: stats
+2024-06-25 07:28:14,958 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-25 07:28:14,962 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:14,962 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-25 07:28:14,962 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 4
+2024-06-25 07:28:14,963 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:14,963 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-25 07:28:15,002 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:28:15,003 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:28:15,003 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:28:17,003 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:28:20,969 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:20,970 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:20,970 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:20,971 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-25 07:28:20,971 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-25 07:28:20,972 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:20,972 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 5
+2024-06-25 07:28:20,974 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:20,975 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:20,976 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-25 07:28:20,977 DEBUG   SenderThread:11238 [sender.py:send():378] send: history
+2024-06-25 07:28:20,978 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: summary_record
+2024-06-25 07:28:20,979 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:28:20,980 DEBUG   SenderThread:11238 [sender.py:send():378] send: summary
+2024-06-25 07:28:20,981 INFO    SenderThread:11238 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-25 07:28:20,981 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:20,981 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-25 07:28:20,982 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 6
+2024-06-25 07:28:20,982 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:20,982 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-25 07:28:20,983 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:20,983 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-25 07:28:20,983 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 7
+2024-06-25 07:28:20,983 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:20,984 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:20,984 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-25 07:28:20,984 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:20,985 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-25 07:28:21,006 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:28:21,821 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:22,947 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 8
+2024-06-25 07:28:22,947 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:22,948 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:22,948 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-25 07:28:22,949 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:22,949 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-25 07:28:22,950 INFO    SenderThread:11238 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-25 07:28:22,951 INFO    SenderThread:11238 [job_builder.py:_get_source_type():576] no source found
+2024-06-25 07:28:22,951 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 9
+2024-06-25 07:28:22,952 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:22,952 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-25 07:28:22,952 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:22,953 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-25 07:28:22,953 INFO    SenderThread:11238 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-25 07:28:23,007 INFO    Thread-12 :11238 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:28:23,008 INFO    SenderThread:11238 [dir_watcher.py:finish():388] scan: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files
+2024-06-25 07:28:23,009 INFO    SenderThread:11238 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/config.yaml config.yaml
+2024-06-25 07:28:23,009 INFO    SenderThread:11238 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/conda-environment.yaml conda-environment.yaml
+2024-06-25 07:28:23,010 INFO    SenderThread:11238 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-metadata.json wandb-metadata.json
+2024-06-25 07:28:23,011 INFO    SenderThread:11238 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/requirements.txt requirements.txt
+2024-06-25 07:28:23,011 INFO    SenderThread:11238 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/events.out.tfevents.1719299904.51530b7cc5e3.11104.0 events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:28:23,019 INFO    SenderThread:11238 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log output.log
+2024-06-25 07:28:23,030 INFO    SenderThread:11238 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json wandb-summary.json
+2024-06-25 07:28:23,034 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 10
+2024-06-25 07:28:23,035 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:23,035 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-25 07:28:23,035 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:23,036 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-25 07:28:23,036 INFO    SenderThread:11238 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-25 07:28:23,568 INFO    wandb-upload_1:11238 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/config.yaml
+2024-06-25 07:28:23,823 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:23,824 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:24,258 INFO    wandb-upload_4:11238 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/output.log
+2024-06-25 07:28:24,826 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:24,827 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:24,911 INFO    wandb-upload_5:11238 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/wandb-summary.json
+2024-06-25 07:28:25,636 INFO    wandb-upload_3:11238 [upload_job.py:push():130] Uploaded file /tmp/tmp77bdvee4wandb/arzjqet2-events.out.tfevents.1719299904.51530b7cc5e3.11104.0
+2024-06-25 07:28:25,827 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:25,829 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:26,830 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:26,831 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:26,832 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:27,831 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:27,832 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:28,834 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:28,835 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:29,835 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:29,837 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:30,839 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:30,840 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:31,840 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:31,842 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:31,842 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:32,843 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:32,844 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:33,845 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:33,846 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:34,848 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:34,849 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:35,849 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:35,851 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:36,852 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:36,852 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:36,853 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:37,853 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:37,854 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:38,855 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:38,856 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:39,857 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:39,858 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:40,860 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:40,861 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:41,861 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:41,862 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: status_report
+2024-06-25 07:28:41,863 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:42,865 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:42,866 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:43,866 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:43,868 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:44,869 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:44,870 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:44,967 INFO    wandb-upload_0:11238 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/requirements.txt
+2024-06-25 07:28:45,344 INFO    wandb-upload_2:11238 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/files/conda-environment.yaml
+2024-06-25 07:28:45,545 INFO    Thread-11 :11238 [sender.py:transition_state():613] send defer: 11
+2024-06-25 07:28:45,546 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:45,546 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-25 07:28:45,547 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:45,547 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-25 07:28:45,548 INFO    SenderThread:11238 [file_pusher.py:join():175] waiting for file pusher
+2024-06-25 07:28:45,548 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 12
+2024-06-25 07:28:45,549 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:45,549 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-25 07:28:45,549 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:45,550 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-25 07:28:45,550 INFO    SenderThread:11238 [file_stream.py:finish():601] file stream finish called
+2024-06-25 07:28:45,841 INFO    SenderThread:11238 [file_stream.py:finish():605] file stream finish is done
+2024-06-25 07:28:45,842 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 13
+2024-06-25 07:28:45,842 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:45,842 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-25 07:28:45,843 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:45,843 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-25 07:28:45,844 INFO    SenderThread:11238 [sender.py:transition_state():613] send defer: 14
+2024-06-25 07:28:45,844 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: defer
+2024-06-25 07:28:45,845 INFO    HandlerThread:11238 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-25 07:28:45,845 DEBUG   SenderThread:11238 [sender.py:send():378] send: final
+2024-06-25 07:28:45,845 DEBUG   SenderThread:11238 [sender.py:send():378] send: footer
+2024-06-25 07:28:45,846 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: defer
+2024-06-25 07:28:45,846 INFO    SenderThread:11238 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-25 07:28:45,847 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:45,848 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:45,849 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-25 07:28:45,850 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: poll_exit
+2024-06-25 07:28:45,850 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: server_info
+2024-06-25 07:28:45,851 DEBUG   SenderThread:11238 [sender.py:send_request():405] send_request: server_info
+2024-06-25 07:28:45,858 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-25 07:28:45,859 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-25 07:28:45,862 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-25 07:28:46,102 INFO    MainThread:11238 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-06-25 07:28:46,104 INFO    MainThread:11238 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-06-25 07:28:46,105 INFO    MainThread:11238 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-06-25 07:28:46,106 DEBUG   HandlerThread:11238 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-25 07:28:46,107 INFO    HandlerThread:11238 [handler.py:finish():882] shutting down handler
+2024-06-25 07:28:46,851 INFO    WriterThread:11238 [datastore.py:close():296] close: /lxy/energydiffusion/wandb/run-20240625_071817-30d5kbyj/run-30d5kbyj.wandb
+2024-06-25 07:28:47,101 INFO    SenderThread:11238 [sender.py:finish():1545] shutting down sender
+2024-06-25 07:28:47,102 INFO    SenderThread:11238 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-25 07:28:47,102 INFO    SenderThread:11238 [file_pusher.py:join():175] waiting for file pusher

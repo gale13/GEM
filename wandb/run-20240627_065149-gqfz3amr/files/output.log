@@ -1,0 +1,46 @@
+
+
+Epoch #1: 1000it [00:18, 53.65it/s, env_step=1000, len=24, n/ep=40, n/st=1000, overall_loss=0.001, rew=-843.14]
+Epoch #2:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #2: 1000it [00:19, 51.84it/s, env_step=2000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-375.72]
+Epoch #3:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #3: 1000it [00:18, 55.45it/s, env_step=3000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-136.56]
+Epoch #4:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #4: 1000it [00:17, 55.56it/s, env_step=4000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-74.22]
+Epoch #5:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #5: 1000it [00:18, 54.33it/s, env_step=5000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-73.88]
+Epoch #6:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #6: 1000it [00:17, 55.85it/s, env_step=6000, len=24, n/ep=50, n/st=1000, overall_loss=0.000, rew=-53.48]
+Epoch #6: test_reward: -11.028332 ± 0.000000, best_reward: -11.028332 ± 0.000000 in #6
+
+
+Epoch #7: 1000it [00:17, 56.59it/s, env_step=7000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-41.00]
+Epoch #7: test_reward: -6.366489 ± 0.000000, best_reward: -6.366489 ± 0.000000 in #7
+
+Epoch #8: 1000it [00:08, 123.35it/s]
+Epoch #8: 1000it [00:18, 55.39it/s, env_step=8000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-40.31]
+
+Epoch #9: 1000it [00:08, 124.59it/s]
+Epoch #9: 1000it [00:17, 56.41it/s, env_step=9000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-35.03]
+
+
+Epoch #10: 1000it [00:18, 54.14it/s, env_step=10000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-32.75]
+Epoch #10: test_reward: -0.000000 ± 0.000000, best_reward: -0.000000 ± 0.000000 in #10
+{'best_result': '-0.00 ± 0.00',
+ 'best_reward': -1.8509354049456306e-09,
+ 'duration': '187.05s',
+ 'test_episode': 11,
+ 'test_speed': '56.03 step/s',
+ 'test_step': 264,
+ 'test_time': '4.71s',
+ 'train_episode': 410,
+ 'train_speed': '54.84 step/s',
+ 'train_step': 10000,
+ 'train_time/collector': '83.81s',
+ 'train_time/model': '98.53s'}

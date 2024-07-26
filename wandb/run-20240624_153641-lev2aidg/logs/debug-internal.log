@@ -1,0 +1,211 @@
+2024-06-24 15:36:41,544 INFO    StreamThr :7826 [internal.py:wandb_internal():85] W&B internal server running at pid: 7826, started at: 2024-06-24 15:36:41.542036
+2024-06-24 15:36:41,547 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: status
+2024-06-24 15:36:41,555 INFO    WriterThread:7826 [datastore.py:open_for_write():87] open: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/run-lev2aidg.wandb
+2024-06-24 15:36:41,557 DEBUG   SenderThread:7826 [sender.py:send():378] send: header
+2024-06-24 15:36:41,558 DEBUG   SenderThread:7826 [sender.py:send():378] send: run
+2024-06-24 15:36:41,562 INFO    SenderThread:7826 [sender.py:_setup_resume():748] checking resume status for None/tianshou/lev2aidg
+2024-06-24 15:36:42,944 INFO    SenderThread:7826 [dir_watcher.py:__init__():211] watching files in: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files
+2024-06-24 15:36:42,944 INFO    SenderThread:7826 [sender.py:_start_run_threads():1123] run started: lev2aidg with start time 1719243401.54166
+2024-06-24 15:36:42,963 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: check_version
+2024-06-24 15:36:42,965 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: check_version
+2024-06-24 15:36:43,321 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: run_start
+2024-06-24 15:36:43,335 DEBUG   HandlerThread:7826 [system_info.py:__init__():26] System info init
+2024-06-24 15:36:43,336 DEBUG   HandlerThread:7826 [system_info.py:__init__():41] System info init done
+2024-06-24 15:36:43,336 INFO    HandlerThread:7826 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 15:36:43,336 INFO    SystemMonitor:7826 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 15:36:43,337 INFO    HandlerThread:7826 [system_monitor.py:probe():214] Collecting system info
+2024-06-24 15:36:43,338 INFO    SystemMonitor:7826 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 15:36:43,339 INFO    SystemMonitor:7826 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 15:36:43,341 INFO    SystemMonitor:7826 [interfaces.py:start():188] Started gpu monitoring
+2024-06-24 15:36:43,343 INFO    SystemMonitor:7826 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 15:36:43,345 INFO    SystemMonitor:7826 [interfaces.py:start():188] Started network monitoring
+2024-06-24 15:36:43,459 DEBUG   HandlerThread:7826 [system_info.py:probe():150] Probing system
+2024-06-24 15:36:43,469 DEBUG   HandlerThread:7826 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-24 15:36:43,469 DEBUG   HandlerThread:7826 [system_info.py:probe():198] Probing system done
+2024-06-24 15:36:43,470 DEBUG   HandlerThread:7826 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.10', 'python': '3.8.0', 'heartbeatAt': '2024-06-24T15:36:43.460207', 'startedAt': '2024-06-24T15:36:41.525490', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': '51530b7cc5e3', 'username': 'root', 'executable': '/opt/conda/envs/gdmopt/bin/python', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 1008.59375, 'min': 800.0, 'max': 2601.0}, 'cpu_freq_per_core': [{'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 900.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 900.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2100.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 2200.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2200.0, 'min': 800.0, 'max': 2601.0}, {'current': 2300.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1700.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 1800.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 2500.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 1400.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1100.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 800.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 1200.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}, {'current': 1600.0, 'min': 800.0, 'max': 2601.0}, {'current': 2000.0, 'min': 800.0, 'max': 2601.0}], 'disk': {'/': {'total': 391.71098709106445, 'used': 211.30531311035156}}, 'gpu': 'NVIDIA A800-SXM4-80GB', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A800-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 1007.3253631591797}}
+2024-06-24 15:36:43,470 INFO    HandlerThread:7826 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-24 15:36:43,470 INFO    HandlerThread:7826 [system_monitor.py:probe():227] Publishing system info
+2024-06-24 15:36:43,470 DEBUG   HandlerThread:7826 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-24 15:36:43,950 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/conda-environment.yaml
+2024-06-24 15:36:46,602 DEBUG   HandlerThread:7826 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-24 15:36:46,607 INFO    HandlerThread:7826 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-24 15:36:46,621 DEBUG   SenderThread:7826 [sender.py:send():378] send: files
+2024-06-24 15:36:46,622 INFO    SenderThread:7826 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-24 15:36:46,623 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 15:36:46,762 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-24 15:36:46,763 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: python_packages
+2024-06-24 15:36:46,765 DEBUG   SenderThread:7826 [sender.py:send():378] send: telemetry
+2024-06-24 15:36:46,766 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 15:36:46,766 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: stop_status
+2024-06-24 15:36:46,773 INFO    HandlerThread:7826 [handler.py:handle_tbrecord():783] handling tbrecord: tbrecord {
+  log_dir: "log"
+  save: true
+}
+control {
+  relay_id: "35a036052ec24e27ad9a66838c0b19a6"
+}
+_info {
+  stream_id: "lev2aidg"
+}
+
+2024-06-24 15:36:46,774 DEBUG   HandlerThread:7826 [config_util.py:dict_from_config_file():70] no default config file found in config-defaults.yaml
+2024-06-24 15:36:46,947 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/conda-environment.yaml
+2024-06-24 15:36:46,947 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/wandb-metadata.json
+2024-06-24 15:36:46,948 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/requirements.txt
+2024-06-24 15:36:46,948 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/events.out.tfevents.1719243406.51530b7cc5e3.7692.0
+2024-06-24 15:36:47,443 DEBUG   SenderThread:7826 [sender.py:send():378] send: telemetry
+2024-06-24 15:36:47,444 DEBUG   SenderThread:7826 [sender.py:send():378] send: tbrecord
+2024-06-24 15:36:47,445 DEBUG   SenderThread:7826 [sender.py:send():378] send: files
+2024-06-24 15:36:47,445 INFO    SenderThread:7826 [sender.py:_save_file():1389] saving file events.out.tfevents.1719243406.51530b7cc5e3.7692.0 with policy live
+2024-06-24 15:36:47,711 INFO    wandb-upload_0:7826 [upload_job.py:push():130] Uploaded file /tmp/tmpn_ooxflgwandb/47j812k3-wandb-metadata.json
+2024-06-24 15:36:47,919 INFO    wandb-upload_1:7826 [upload_job.py:push():130] Uploaded file /tmp/tmpn_ooxflgwandb/7d5mr45a-events.out.tfevents.1719243406.51530b7cc5e3.7692.0
+2024-06-24 15:36:50,480 DEBUG   SenderThread:7826 [sender.py:send():378] send: exit
+2024-06-24 15:36:50,480 INFO    SenderThread:7826 [sender.py:send_exit():585] handling exit code: 1
+2024-06-24 15:36:50,480 INFO    SenderThread:7826 [sender.py:send_exit():587] handling runtime: 7
+2024-06-24 15:36:50,484 INFO    SenderThread:7826 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-24 15:36:50,485 INFO    SenderThread:7826 [sender.py:send_exit():593] send defer
+2024-06-24 15:36:50,485 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:50,486 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-24 15:36:50,486 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:50,486 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-24 15:36:50,486 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 1
+2024-06-24 15:36:50,487 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:50,487 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-24 15:36:50,487 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:50,487 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-24 15:36:50,487 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 2
+2024-06-24 15:36:50,488 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:50,488 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-24 15:36:50,488 INFO    HandlerThread:7826 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 15:36:50,490 INFO    HandlerThread:7826 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 15:36:50,490 INFO    HandlerThread:7826 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 15:36:50,490 DEBUG   SystemMonitor:7826 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 15:36:50,491 DEBUG   SystemMonitor:7826 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 15:36:50,492 DEBUG   SystemMonitor:7826 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 15:36:50,613 INFO    HandlerThread:7826 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-24 15:36:50,614 INFO    HandlerThread:7826 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 15:36:50,615 INFO    HandlerThread:7826 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 15:36:50,616 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:50,616 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-24 15:36:50,616 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 3
+2024-06-24 15:36:50,616 DEBUG   SenderThread:7826 [sender.py:send():378] send: stats
+2024-06-24 15:36:50,617 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:50,620 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-24 15:36:50,620 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:50,620 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-24 15:36:50,621 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 4
+2024-06-24 15:36:50,621 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:50,621 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-24 15:36:50,949 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/wandb-summary.json
+2024-06-24 15:36:50,950 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_created():271] file/dir created: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/output.log
+2024-06-24 15:36:52,951 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/output.log
+2024-06-24 15:36:56,782 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 15:36:56,783 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 15:36:56,783 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-24 15:36:56,783 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:56,784 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-24 15:36:56,784 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 5
+2024-06-24 15:36:56,785 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: poll_exit
+2024-06-24 15:36:56,785 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:56,786 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-24 15:36:56,786 DEBUG   SenderThread:7826 [sender.py:send():378] send: summary
+2024-06-24 15:36:56,791 INFO    SenderThread:7826 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-24 15:36:56,791 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:56,792 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-24 15:36:56,792 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 6
+2024-06-24 15:36:56,792 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:56,792 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-24 15:36:56,793 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:56,793 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-24 15:36:56,799 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 15:36:56,954 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/wandb-summary.json
+2024-06-24 15:36:57,070 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 7
+2024-06-24 15:36:57,071 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:57,071 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-24 15:36:57,072 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:57,072 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-24 15:36:57,490 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 15:36:57,954 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/config.yaml
+2024-06-24 15:36:58,499 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 8
+2024-06-24 15:36:58,500 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: poll_exit
+2024-06-24 15:36:58,500 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:58,501 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-24 15:36:58,502 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:58,502 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-24 15:36:58,502 INFO    SenderThread:7826 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-24 15:36:58,503 INFO    SenderThread:7826 [job_builder.py:_get_source_type():576] no source found
+2024-06-24 15:36:58,504 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 9
+2024-06-24 15:36:58,504 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:58,504 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-24 15:36:58,505 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:58,505 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-24 15:36:58,505 INFO    SenderThread:7826 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-24 15:36:58,955 INFO    Thread-12 :7826 [dir_watcher.py:_on_file_modified():288] file/dir modified: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/output.log
+2024-06-24 15:36:58,957 INFO    SenderThread:7826 [dir_watcher.py:finish():388] scan: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files
+2024-06-24 15:36:58,957 INFO    SenderThread:7826 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/config.yaml config.yaml
+2024-06-24 15:36:58,958 INFO    SenderThread:7826 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/conda-environment.yaml conda-environment.yaml
+2024-06-24 15:36:58,959 INFO    SenderThread:7826 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/wandb-metadata.json wandb-metadata.json
+2024-06-24 15:36:58,964 INFO    SenderThread:7826 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/requirements.txt requirements.txt
+2024-06-24 15:36:58,972 INFO    SenderThread:7826 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/events.out.tfevents.1719243406.51530b7cc5e3.7692.0 events.out.tfevents.1719243406.51530b7cc5e3.7692.0
+2024-06-24 15:36:58,980 INFO    SenderThread:7826 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/output.log output.log
+2024-06-24 15:36:58,981 INFO    SenderThread:7826 [dir_watcher.py:finish():402] scan save: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/wandb-summary.json wandb-summary.json
+2024-06-24 15:36:58,987 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 10
+2024-06-24 15:36:58,992 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:36:58,993 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-24 15:36:58,994 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:36:58,994 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-24 15:36:58,994 INFO    SenderThread:7826 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 15:36:59,493 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 15:36:59,495 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: poll_exit
+2024-06-24 15:36:59,577 INFO    wandb-upload_2:7826 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/requirements.txt
+2024-06-24 15:36:59,734 INFO    wandb-upload_0:7826 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/config.yaml
+2024-06-24 15:36:59,783 INFO    wandb-upload_1:7826 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/conda-environment.yaml
+2024-06-24 15:37:00,239 INFO    wandb-upload_4:7826 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/wandb-summary.json
+2024-06-24 15:37:00,496 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 15:37:00,497 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: poll_exit
+2024-06-24 15:37:01,122 INFO    wandb-upload_3:7826 [upload_job.py:push():130] Uploaded file /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/files/output.log
+2024-06-24 15:37:01,323 INFO    Thread-11 :7826 [sender.py:transition_state():613] send defer: 11
+2024-06-24 15:37:01,324 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:37:01,324 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-24 15:37:01,325 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:37:01,325 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-24 15:37:01,326 INFO    SenderThread:7826 [file_pusher.py:join():175] waiting for file pusher
+2024-06-24 15:37:01,326 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 12
+2024-06-24 15:37:01,327 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:37:01,327 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-24 15:37:01,327 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:37:01,327 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-24 15:37:01,327 INFO    SenderThread:7826 [file_stream.py:finish():601] file stream finish called
+2024-06-24 15:37:01,500 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 15:37:01,550 INFO    SenderThread:7826 [file_stream.py:finish():605] file stream finish is done
+2024-06-24 15:37:01,550 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 13
+2024-06-24 15:37:01,551 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: poll_exit
+2024-06-24 15:37:01,551 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:37:01,552 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-24 15:37:01,553 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:37:01,553 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-24 15:37:01,553 INFO    SenderThread:7826 [sender.py:transition_state():613] send defer: 14
+2024-06-24 15:37:01,555 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 15:37:01,555 DEBUG   SenderThread:7826 [sender.py:send():378] send: final
+2024-06-24 15:37:01,555 INFO    HandlerThread:7826 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-24 15:37:01,555 DEBUG   SenderThread:7826 [sender.py:send():378] send: footer
+2024-06-24 15:37:01,556 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: defer
+2024-06-24 15:37:01,556 INFO    SenderThread:7826 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-24 15:37:01,558 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 15:37:01,558 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: poll_exit
+2024-06-24 15:37:01,560 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 15:37:01,560 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: poll_exit
+2024-06-24 15:37:01,561 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: server_info
+2024-06-24 15:37:01,562 DEBUG   SenderThread:7826 [sender.py:send_request():405] send_request: server_info
+2024-06-24 15:37:01,570 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-24 15:37:01,571 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-24 15:37:01,572 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 15:37:01,794 INFO    MainThread:7826 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-06-24 15:37:01,794 INFO    MainThread:7826 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-06-24 15:37:01,795 INFO    MainThread:7826 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-06-24 15:37:01,796 DEBUG   HandlerThread:7826 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-24 15:37:01,796 INFO    HandlerThread:7826 [handler.py:finish():882] shutting down handler
+2024-06-24 15:37:02,562 INFO    WriterThread:7826 [datastore.py:close():296] close: /lxy/energydiffusion/wandb/run-20240624_153641-lev2aidg/run-lev2aidg.wandb
+2024-06-24 15:37:02,794 INFO    SenderThread:7826 [sender.py:finish():1545] shutting down sender
+2024-06-24 15:37:02,794 INFO    SenderThread:7826 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 15:37:02,794 INFO    SenderThread:7826 [file_pusher.py:join():175] waiting for file pusher

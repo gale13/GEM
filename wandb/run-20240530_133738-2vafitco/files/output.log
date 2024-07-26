@@ -1,0 +1,48 @@
+obs: torch.Size([1, 30])
+shape (1, 74)
+torch.Size([74])
+torch.Size([1, 256]) torch.Size([1, 16]) torch.Size([1, 74])
+tensor([-0.7462,  0.9240, -0.4287, -0.4115, -0.9811, -0.5545,  0.6965,  0.6447,
+         0.1292,  0.1095,  1.3278,  0.7116, -0.5014,  1.3150, -0.0305,  0.7870,
+        -0.9693,  1.2833,  0.5738,  0.4751,  0.5723, -1.5816, -1.2837,  1.9981,
+         0.6420, -0.0732,  0.1707,  0.4773,  0.5134,  1.3032,  0.1948,  0.6677,
+         1.4342,  0.1006,  0.3116, -1.2784, -0.4845, -0.8329,  0.3408,  0.3926,
+         1.5894, -0.3974,  0.3728,  0.5996,  1.0753, -0.3519,  0.9087,  2.6490,
+        -0.2965,  0.2971, -1.2797,  0.6641,  1.3265, -1.3249, -1.0070,  1.4013,
+        -0.2242, -0.9972,  0.3832,  1.6768, -0.3405,  0.5193,  1.4854,  0.3027,
+        -0.2114, -0.4799,  1.2644,  1.7756,  1.0755, -1.5995,  0.3201,  0.2990,
+         0.3472,  1.0090], device='cuda:0')
+Traceback (most recent call last):
+  File "main.py", line 102, in <module>
+    result = offpolicy_trainer(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 133, in offpolicy_trainer
+    return OffpolicyTrainer(*args, **kwargs).run()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 441, in run
+    deque(self, maxlen=0)  # feed the entire iterator into a zero-length deque
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 252, in __iter__
+    self.reset()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 237, in reset
+    test_result = test_episode(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/utils.py", line 27, in test_episode
+    result = collector.collect(n_episode=n_episode)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/data/collector.py", line 297, in collect
+    result = self.policy(self.data, last_state)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 127, in forward
+    logits, hidden = model_(obs_), None
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 227, in forward
+    return self.sample(state, *args, **kwargs)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 178, in sample
+    action = self.p_sample_loop(state, shape, *args, **kwargs)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 148, in p_sample_loop
+    x = self.p_sample(x, timesteps, state)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 130, in p_sample
+    nonzero_mask = (1 - (t == 0).float()).reshape(b, *((1,) * (x.shape[1] - 1)))
+IndexError: tuple index out of range

@@ -1,0 +1,24 @@
+
+Epoch #1: 1000it [00:10, 94.00it/s]
+Traceback (most recent call last):
+  File "main.py", line 94, in <module>
+    result = offpolicy_trainer(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 133, in offpolicy_trainer
+    return OffpolicyTrainer(*args, **kwargs).run()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 441, in run
+    deque(self, maxlen=0)  # feed the entire iterator into a zero-length deque
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 299, in __next__
+    self.policy_update_fn(data, result)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 122, in policy_update_fn
+    losses = self.policy.update(self.batch_size, self.train_collector.buffer)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 105, in update
+    batch = self.process_fn(batch, buffer, indices)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 81, in process_fn
+    return self.compute_nstep_return(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/policy/base.py", line 391, in compute_nstep_return
+    target_q_torch = target_q_fn(buffer, terminal)  # (bsz, ?)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 76, in _target_q
+    target_q = self._target_critic.q_min(batch.obs_next, ttt)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1709, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'DiffusionOPT' object has no attribute '_target_critic'

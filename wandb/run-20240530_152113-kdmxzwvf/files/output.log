@@ -1,0 +1,107 @@
+
+
+
+Epoch #1: 1000it [00:28, 35.02it/s, env_step=1000, len=1, loss/critic=6348.948, n/ep=770, n/st=1000, overall_loss=0.002, rew=-114.06]
+Epoch #2:   0%|                                                        | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #2: 1000it [00:26, 38.19it/s, env_step=2000, len=1, loss/critic=520.746, n/ep=1000, n/st=1000, overall_loss=0.001, rew=-18.04]
+Epoch #3:   0%|                                                        | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #3: 1000it [00:25, 132.35it/s]
+Epoch #3: 1000it [00:27, 36.33it/s, env_step=3000, len=1, loss/critic=272.198, n/ep=1000, n/st=1000, overall_loss=0.001, rew=-9.56]
+
+
+Epoch #4: 1000it [00:25, 39.75it/s, env_step=4000, len=1, loss/critic=184.843, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-6.59]
+Epoch #5:   0%|                                                        | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #5: 1000it [00:25, 39.08it/s, env_step=5000, len=1, loss/critic=208.534, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-5.80]
+Epoch #6:   0%|                                                        | 0/100 [00:00<?, ?it/s]
+
+Epoch #6: 1000it [00:06, 143.46it/s]
+Epoch #6: 1000it [00:25, 39.19it/s, env_step=6000, len=1, loss/critic=124.679, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-4.31]
+
+
+Epoch #7: 1000it [00:21, 143.71it/s]
+Epoch #7: 1000it [00:25, 38.78it/s, env_step=7000, len=1, loss/critic=135.138, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-3.72]
+
+Epoch #8: 1000it [00:25, 39.31it/s, env_step=8000, len=1, loss/critic=117.840, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-3.43]
+Epoch #9:   0%|                                                        | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #9: 1000it [00:25, 38.96it/s, env_step=9000, len=1, loss/critic=100.266, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-2.81]
+Epoch #10:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #10: 1000it [00:25, 38.87it/s, env_step=10000, len=1, loss/critic=85.897, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-2.53]
+Epoch #11:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #11: 1000it [00:25, 39.10it/s, env_step=11000, len=1, loss/critic=77.087, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-2.14]
+Epoch #12:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #12: 1000it [00:26, 38.04it/s, env_step=12000, len=1, loss/critic=76.608, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.99]
+Epoch #13:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+Epoch #13: 1000it [00:25, 38.70it/s, env_step=13000, len=1, loss/critic=90.300, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.77]
+Epoch #14:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #14: 1000it [00:26, 38.17it/s, env_step=14000, len=1, loss/critic=94.779, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.80]
+Epoch #15:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #15: 1000it [00:26, 38.28it/s, env_step=15000, len=1, loss/critic=59.596, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.54]
+Epoch #16:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #16: 1000it [00:25, 39.86it/s, env_step=16000, len=1, loss/critic=56.856, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.50]
+Epoch #17:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #17: 1000it [00:25, 39.44it/s, env_step=17000, len=1, loss/critic=51.972, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.43]
+Epoch #18:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #18: 1000it [00:24, 40.76it/s, env_step=18000, len=1, loss/critic=54.650, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.28]
+Epoch #19:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #19: 1000it [00:25, 39.20it/s, env_step=19000, len=1, loss/critic=49.886, n/ep=1000, n/st=1000, overall_loss=0.000, rew=-1.19]
+Epoch #20:   0%|                                                       | 0/100 [00:00<?, ?it/s]
+Epoch #20:   0%|                                                       | 0/100 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 104, in <module>
+    result = offpolicy_trainer(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 133, in offpolicy_trainer
+    return OffpolicyTrainer(*args, **kwargs).run()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 441, in run
+    deque(self, maxlen=0)  # feed the entire iterator into a zero-length deque
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 288, in __next__
+    data, result, self.stop_fn_flag = self.train_step()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 384, in train_step
+    result = self.train_collector.collect(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/data/collector.py", line 314, in collect
+    result = self.env.step(action_remap, ready_env_ids)  # type: ignore
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/env/venvs.py", line 284, in step
+    self.workers[j].send(action[i])
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/env/worker/dummy.py", line 38, in send
+    self.result = self.env.step(action)  # type: ignore
+  File "/lxy/energydiffusion/env/distEnergy.py", line 127, in step
+    op,expert_action = convexprogram(Demand,Generate,Storage,self.Graph)
+  File "/lxy/energydiffusion/env/distEnergy.py", line 39, in convexprogram
+    res = prob.solve()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/problems/problem.py", line 503, in solve
+    return solve_func(self, *args, **kwargs)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/problems/problem.py", line 1086, in _solve
+    solution = solving_chain.solve_via_data(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/reductions/solvers/solving_chain.py", line 473, in solve_via_data
+    return self.solver.solve_via_data(data, warm_start, verbose,
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/reductions/solvers/conic_solvers/clarabel_conif.py", line 330, in solve_via_data
+    results, status = solve(solver_opts)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/reductions/solvers/conic_solvers/clarabel_conif.py", line 326, in solve
+    _results = _solver.solve()
+KeyboardInterrupt

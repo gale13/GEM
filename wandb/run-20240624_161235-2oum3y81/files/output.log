@@ -1,0 +1,113 @@
+
+
+
+
+Epoch #1: 1000it [00:41, 23.93it/s, env_step=1000, len=24, loss/critic=2504369.841, n/ep=40, n/st=1000, overall_loss=0.004, rew=-10019.40]
+Epoch #2:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #2: 1000it [00:40, 24.87it/s, env_step=2000, len=24, loss/critic=4435677.490, n/ep=40, n/st=1000, overall_loss=0.004, rew=-2909.79]
+Epoch #3:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+
+Epoch #3: 1000it [00:39, 25.60it/s, env_step=3000, len=24, loss/critic=4460533.758, n/ep=40, n/st=1000, overall_loss=0.005, rew=-2664.33]
+Epoch #4:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #4: 1000it [00:40, 24.51it/s, env_step=4000, len=24, loss/critic=4001209.565, n/ep=40, n/st=1000, overall_loss=0.006, rew=-2495.06]
+Epoch #5:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+
+Epoch #5: 1000it [00:40, 24.63it/s, env_step=5000, len=24, loss/critic=3202313.844, n/ep=40, n/st=1000, overall_loss=0.007, rew=-2462.62]
+Epoch #5: test_reward: -2139.987113 ± 0.000000, best_reward: -2139.987113 ± 0.000000 in #5
+
+
+Epoch #6: 1000it [00:41, 24.37it/s, env_step=6000, len=24, loss/critic=2785967.305, n/ep=50, n/st=1000, overall_loss=0.008, rew=-2251.26]
+Epoch #7:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #7: 1000it [00:24, 118.27it/s]
+Epoch #7: 1000it [00:40, 24.53it/s, env_step=7000, len=24, loss/critic=2209234.581, n/ep=40, n/st=1000, overall_loss=0.009, rew=-2310.06]
+
+
+Epoch #8: 1000it [00:22, 117.95it/s]
+Epoch #8: 1000it [00:39, 25.37it/s, env_step=8000, len=24, loss/critic=1870909.669, n/ep=40, n/st=1000, overall_loss=0.010, rew=-2226.33]
+
+
+Epoch #9: 1000it [00:22, 117.47it/s]
+Epoch #9: 1000it [00:40, 24.68it/s, env_step=9000, len=24, loss/critic=1684381.922, n/ep=40, n/st=1000, overall_loss=0.010, rew=-2182.94]
+
+
+Epoch #10: 1000it [00:22, 118.11it/s]
+Epoch #10: 1000it [00:40, 24.48it/s, env_step=10000, len=24, loss/critic=1461046.934, n/ep=40, n/st=1000, overall_loss=0.011, rew=-2188.71]
+
+
+Epoch #11: 1000it [00:20, 118.39it/s]
+Epoch #11: 1000it [00:40, 24.96it/s, env_step=11000, len=24, loss/critic=1365864.881, n/ep=40, n/st=1000, overall_loss=0.012, rew=-2122.72]
+
+
+Epoch #12: 1000it [00:20, 115.78it/s]
+
+Epoch #12: 1000it [00:40, 24.70it/s, env_step=12000, len=24, loss/critic=1195639.377, n/ep=50, n/st=1000, overall_loss=0.012, rew=-2089.35]
+
+
+Epoch #13: 1000it [00:19, 117.95it/s]
+Epoch #13: 1000it [00:40, 24.76it/s, env_step=13000, len=24, loss/critic=1053025.534, n/ep=40, n/st=1000, overall_loss=0.013, rew=-2130.02]
+
+
+Epoch #14: 1000it [00:28, 116.25it/s]
+Epoch #14: 1000it [00:40, 24.69it/s, env_step=14000, len=24, loss/critic=940523.464, n/ep=40, n/st=1000, overall_loss=0.013, rew=-2172.92]
+
+
+Epoch #15: 1000it [00:27, 118.49it/s]
+Epoch #15: 1000it [00:39, 25.40it/s, env_step=15000, len=24, loss/critic=941693.013, n/ep=40, n/st=1000, overall_loss=0.014, rew=-2014.19]
+
+
+Epoch #16: 1000it [00:27, 118.47it/s]
+Epoch #16: 1000it [00:40, 25.00it/s, env_step=16000, len=24, loss/critic=849883.203, n/ep=40, n/st=1000, overall_loss=0.014, rew=-1979.56]
+
+
+Epoch #17: 1000it [00:27, 115.94it/s]
+Epoch #17: 1000it [00:41, 23.96it/s, env_step=17000, len=24, loss/critic=823218.560, n/ep=40, n/st=1000, overall_loss=0.014, rew=-1981.52]
+
+
+
+Epoch #18: 1000it [00:40, 24.61it/s, env_step=18000, len=24, loss/critic=838900.196, n/ep=50, n/st=1000, overall_loss=0.015, rew=-1953.77]
+Epoch #18: test_reward: -1692.770475 ± 0.000000, best_reward: -1682.524722 ± 0.000000 in #10
+Epoch #19:   0%|                                                                                                                | 0/100 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 109, in <module>
+    result = offpolicy_trainer(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 133, in offpolicy_trainer
+    return OffpolicyTrainer(*args, **kwargs).run()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 441, in run
+    deque(self, maxlen=0)  # feed the entire iterator into a zero-length deque
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 288, in __next__
+    data, result, self.stop_fn_flag = self.train_step()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 384, in train_step
+    result = self.train_collector.collect(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/data/collector.py", line 314, in collect
+    result = self.env.step(action_remap, ready_env_ids)  # type: ignore
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/env/venvs.py", line 284, in step
+    self.workers[j].send(action[i])
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/env/worker/dummy.py", line 38, in send
+    self.result = self.env.step(action)  # type: ignore
+  File "/lxy/energydiffusion/env/distEnergy.py", line 124, in step
+    op,expert_action = convexprogram(Demand,Generate,Storage,self.Graph,Unitcost)
+  File "/lxy/energydiffusion/env/distEnergy.py", line 39, in convexprogram
+    res = prob.solve()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/problems/problem.py", line 503, in solve
+    return solve_func(self, *args, **kwargs)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/problems/problem.py", line 1086, in _solve
+    solution = solving_chain.solve_via_data(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/reductions/solvers/solving_chain.py", line 473, in solve_via_data
+    return self.solver.solve_via_data(data, warm_start, verbose,
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/reductions/solvers/conic_solvers/clarabel_conif.py", line 330, in solve_via_data
+    results, status = solve(solver_opts)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/cvxpy/reductions/solvers/conic_solvers/clarabel_conif.py", line 325, in solve
+    _solver = clarabel.DefaultSolver(P, c, A, b, cones, _settings)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/scipy/sparse/_base.py", line 119, in get_shape
+    def get_shape(self):
+KeyboardInterrupt

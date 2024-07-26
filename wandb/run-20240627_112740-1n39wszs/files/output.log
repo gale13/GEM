@@ -1,0 +1,50 @@
+
+
+
+Epoch #1: 1000it [00:20, 48.86it/s, env_step=1000, len=24, n/ep=40, n/st=1000, overall_loss=0.349, rew=-759.26]
+Epoch #2:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #2: 1000it [00:09, 103.38it/s]
+Epoch #2: 1000it [00:21, 46.41it/s, env_step=2000, len=24, n/ep=40, n/st=1000, overall_loss=0.064, rew=-915.02]
+
+Epoch #3: 1000it [00:08, 116.54it/s]
+Epoch #3: 1000it [00:19, 51.05it/s, env_step=3000, len=24, n/ep=40, n/st=1000, overall_loss=0.041, rew=-783.30]
+
+
+Epoch #4: 1000it [00:19, 51.90it/s, env_step=4000, len=24, n/ep=40, n/st=1000, overall_loss=0.029, rew=-657.60]
+Epoch #4: test_reward: -300.756762 ± 0.000000, best_reward: -300.756762 ± 0.000000 in #4
+
+Epoch #5: 1000it [00:19, 52.30it/s, env_step=5000, len=24, n/ep=40, n/st=1000, overall_loss=0.022, rew=-586.44]
+Epoch #6:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #6: 1000it [00:19, 52.24it/s, env_step=6000, len=24, n/ep=50, n/st=1000, overall_loss=0.017, rew=-322.43]
+Epoch #7:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #7: 1000it [00:18, 120.40it/s]
+Epoch #7: 1000it [00:19, 52.18it/s, env_step=7000, len=24, n/ep=40, n/st=1000, overall_loss=0.013, rew=-296.35]
+
+
+Epoch #8: 1000it [00:19, 115.66it/s]
+Epoch #8: 1000it [00:19, 50.98it/s, env_step=8000, len=24, n/ep=40, n/st=1000, overall_loss=0.011, rew=-226.18]
+
+
+Epoch #9: 1000it [00:19, 120.02it/s]
+Epoch #9: 1000it [00:19, 51.26it/s, env_step=9000, len=24, n/ep=40, n/st=1000, overall_loss=0.009, rew=-153.87]
+
+
+
+Epoch #10: 1000it [00:20, 48.88it/s, env_step=10000, len=24, n/ep=40, n/st=1000, overall_loss=0.008, rew=-168.55]
+Epoch #10: test_reward: -2.006650 ± 0.000000, best_reward: -2.006650 ± 0.000000 in #10
+{'best_result': '-2.01 ± 0.00',
+ 'best_reward': -2.0066501358732296,
+ 'duration': '202.10s',
+ 'test_episode': 11,
+ 'test_speed': '64.00 step/s',
+ 'test_step': 264,
+ 'test_time': '4.13s',
+ 'train_episode': 410,
+ 'train_speed': '50.51 step/s',
+ 'train_step': 10000,
+ 'train_time/collector': '86.61s',
+ 'train_time/model': '111.37s'}

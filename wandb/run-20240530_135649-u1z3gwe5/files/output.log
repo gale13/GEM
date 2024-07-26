@@ -1,0 +1,42 @@
+obs: torch.Size([1, 30])
+shape (1, 74)
+torch.Size([74])
+torch.Size([1, 256]) torch.Size([1, 16]) torch.Size([1, 74])
+1
+torch.Size([1, 74])
+torch.Size([1])
+torch.Size([74])
+Traceback (most recent call last):
+  File "main.py", line 102, in <module>
+    result = offpolicy_trainer(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 133, in offpolicy_trainer
+    return OffpolicyTrainer(*args, **kwargs).run()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 441, in run
+    deque(self, maxlen=0)  # feed the entire iterator into a zero-length deque
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 252, in __iter__
+    self.reset()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 237, in reset
+    test_result = test_episode(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/utils.py", line 27, in test_episode
+    result = collector.collect(n_episode=n_episode)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/data/collector.py", line 297, in collect
+    result = self.policy(self.data, last_state)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 127, in forward
+    logits, hidden = model_(obs_), None
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 234, in forward
+    return self.sample(state, *args, **kwargs)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 185, in sample
+    action = self.p_sample_loop(state, shape, *args, **kwargs)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 155, in p_sample_loop
+    x = self.p_sample(x, timesteps, state)
+  File "/lxy/energydiffusion/diffusion/diffusion.py", line 137, in p_sample
+    nonzero_mask = (1 - (t == 0).float()).reshape(b, *((1,) * (len(x.shape) - 1)))
+RuntimeError: shape '[74]' is invalid for input of size 1

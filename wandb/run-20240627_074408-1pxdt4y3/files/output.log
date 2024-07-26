@@ -1,0 +1,49 @@
+
+
+
+
+Epoch #1: 1000it [00:21, 46.12it/s, env_step=1000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-985.99]
+Epoch #1: test_reward: -360.523109 ± 0.000000, best_reward: -360.523109 ± 0.000000 in #1
+
+Epoch #2: 1000it [00:09, 105.63it/s]
+Epoch #2: 1000it [00:20, 47.67it/s, env_step=2000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-161.62]
+
+Epoch #3: 1000it [00:09, 102.84it/s]
+Epoch #3: 1000it [00:21, 46.08it/s, env_step=3000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-92.73]
+
+Epoch #4: 1000it [00:08, 113.74it/s]
+Epoch #4: 1000it [00:19, 50.02it/s, env_step=4000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-65.40]
+
+
+Epoch #5: 1000it [00:20, 49.81it/s, env_step=5000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-58.13]
+Epoch #5: test_reward: -45.286499 ± 0.000000, best_reward: -8.875377 ± 0.000000 in #3
+
+Epoch #6: 1000it [00:09, 105.87it/s]
+Epoch #6: 1000it [00:20, 48.14it/s, env_step=6000, len=24, n/ep=50, n/st=1000, overall_loss=0.000, rew=-54.32]
+
+Epoch #7: 1000it [00:08, 117.44it/s]
+Epoch #7: 1000it [00:19, 50.24it/s, env_step=7000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-29.94]
+
+
+Epoch #8: 1000it [00:20, 49.74it/s, env_step=8000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-40.45]
+Epoch #8: test_reward: -71.800758 ± 0.000000, best_reward: 0.000000 ± 0.000000 in #7
+
+
+Epoch #9: 1000it [00:19, 50.87it/s, env_step=9000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-29.27]
+Epoch #9: test_reward: -0.956629 ± 0.000000, best_reward: 0.000000 ± 0.000000 in #7
+
+
+Epoch #10: 1000it [00:19, 50.70it/s, env_step=10000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-25.56]
+Epoch #10: test_reward: -15.405356 ± 0.000000, best_reward: 0.000000 ± 0.000000 in #7
+{'best_result': '0.00 ± 0.00',
+ 'best_reward': 0.0,
+ 'duration': '209.11s',
+ 'test_episode': 11,
+ 'test_speed': '59.85 step/s',
+ 'test_step': 264,
+ 'test_time': '4.41s',
+ 'train_episode': 410,
+ 'train_speed': '48.85 step/s',
+ 'train_step': 10000,
+ 'train_time/collector': '90.22s',
+ 'train_time/model': '114.48s'}

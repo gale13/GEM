@@ -1,0 +1,44 @@
+
+
+Epoch #1: 1000it [00:22, 45.02it/s, env_step=1000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-793.45]
+Epoch #2:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #2: 1000it [00:19, 50.08it/s, env_step=2000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-183.95]
+Epoch #3:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #3: 1000it [00:20, 49.03it/s, env_step=3000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-90.09]
+Epoch #4:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #4: 1000it [00:19, 50.67it/s, env_step=4000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-65.51]
+Epoch #5:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #5: 1000it [00:19, 50.73it/s, env_step=5000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-58.57]
+Epoch #6:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #6: 1000it [00:18, 52.91it/s, env_step=6000, len=24, n/ep=50, n/st=1000, overall_loss=0.000, rew=-51.57]
+Epoch #7:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #7: 1000it [00:20, 49.04it/s, env_step=7000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-41.51]
+Epoch #8:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #8: 1000it [00:19, 52.29it/s, env_step=8000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-39.63]
+Epoch #9:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #9: 1000it [00:19, 51.31it/s, env_step=9000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-25.20]
+Epoch #10:   0%|                                                                                                                | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #10: 1000it [00:19, 51.34it/s, env_step=10000, len=24, n/ep=40, n/st=1000, overall_loss=0.000, rew=-26.51]
+Epoch #10: test_reward: -38.015606 ± 0.000000, best_reward: -4.940614 ± 0.000000 in #9
+{'best_result': '-4.94 ± 0.00',
+ 'best_reward': -4.940614460525985,
+ 'duration': '203.79s',
+ 'test_episode': 11,
+ 'test_speed': '61.63 step/s',
+ 'test_step': 264,
+ 'test_time': '4.28s',
+ 'train_episode': 410,
+ 'train_speed': '50.12 step/s',
+ 'train_step': 10000,
+ 'train_time/collector': '88.32s',
+ 'train_time/model': '111.19s'}

@@ -1,0 +1,54 @@
+
+
+
+Epoch #1: 1000it [00:29, 33.90it/s, env_step=1000, len=24, loss/critic=2459.376, n/ep=40, n/st=1000, overall_loss=0.003, rew=-1672.85]
+Epoch #2:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #2: 1000it [00:20, 120.15it/s]
+Epoch #2: 1000it [00:29, 34.25it/s, env_step=2000, len=24, loss/critic=7436.301, n/ep=40, n/st=1000, overall_loss=0.002, rew=-1076.59]
+
+
+Epoch #3: 1000it [00:20, 120.20it/s]
+Epoch #3: 1000it [00:28, 34.67it/s, env_step=3000, len=24, loss/critic=10323.398, n/ep=40, n/st=1000, overall_loss=0.002, rew=-893.69]
+
+
+Epoch #4: 1000it [00:21, 111.49it/s]
+Epoch #4: 1000it [00:29, 33.68it/s, env_step=4000, len=24, loss/critic=14352.308, n/ep=40, n/st=1000, overall_loss=0.002, rew=-867.71]
+
+
+
+Epoch #5: 1000it [00:29, 34.01it/s, env_step=5000, len=24, loss/critic=20016.350, n/ep=40, n/st=1000, overall_loss=0.002, rew=-754.89]
+Epoch #5: test_reward: -390.346593 ± 0.000000, best_reward: -390.346593 ± 0.000000 in #5
+
+
+Epoch #6: 1000it [00:21, 119.25it/s]
+Epoch #6: 1000it [00:28, 34.59it/s, env_step=6000, len=24, loss/critic=27998.412, n/ep=50, n/st=1000, overall_loss=0.002, rew=-716.99]
+
+
+Epoch #7: 1000it [00:30, 32.98it/s, env_step=7000, len=24, loss/critic=36112.764, n/ep=40, n/st=1000, overall_loss=0.002, rew=-718.89]
+Epoch #8:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #8: 1000it [00:29, 33.57it/s, env_step=8000, len=24, loss/critic=44105.195, n/ep=40, n/st=1000, overall_loss=0.001, rew=-654.45]
+Epoch #9:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+Epoch #9: 1000it [00:20, 48.76it/s]
+Traceback (most recent call last):
+  File "main.py", line 109, in <module>
+    result = offpolicy_trainer(
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 133, in offpolicy_trainer
+    return OffpolicyTrainer(*args, **kwargs).run()
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 441, in run
+    deque(self, maxlen=0)  # feed the entire iterator into a zero-length deque
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/base.py", line 299, in __next__
+    self.policy_update_fn(data, result)
+  File "/opt/conda/envs/gdmopt/lib/python3.8/site-packages/tianshou/trainer/offpolicy.py", line 122, in policy_update_fn
+    losses = self.policy.update(self.batch_size, self.train_collector.buffer)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 107, in update
+    result = self.learn(batch, **kwargs)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 220, in learn
+    bc_loss = self._update_bc(batch, update=False)
+  File "/lxy/energydiffusion/policy/diffusion_opt.py", line 181, in _update_bc
+    expert_actions = torch.Tensor([info["expert_action"] for info in batch.info]).to(self._device)
+KeyboardInterrupt

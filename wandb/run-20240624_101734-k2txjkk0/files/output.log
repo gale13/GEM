@@ -1,0 +1,34 @@
+
+
+
+Epoch #1: 1000it [00:43, 23.00it/s, env_step=1000, len=24, loss/critic=145.203, n/ep=40, n/st=1000, overall_loss=0.019, rew=-72.03]
+Epoch #2:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #2: 1000it [00:39, 25.38it/s, env_step=2000, len=24, loss/critic=309.522, n/ep=40, n/st=1000, overall_loss=0.017, rew=-64.10]
+Epoch #3:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #3: 1000it [00:37, 26.41it/s, env_step=3000, len=24, loss/critic=491.740, n/ep=40, n/st=1000, overall_loss=0.016, rew=-72.06]
+Epoch #4:   0%|                                                                                                                 | 0/100 [00:00<?, ?it/s]
+
+
+Epoch #4: 1000it [00:27, 121.56it/s]
+Epoch #4: 1000it [00:38, 25.72it/s, env_step=4000, len=24, loss/critic=699.392, n/ep=40, n/st=1000, overall_loss=0.016, rew=-70.20]
+
+
+
+Epoch #5: 1000it [00:40, 24.73it/s, env_step=5000, len=24, loss/critic=851.985, n/ep=40, n/st=1000, overall_loss=0.016, rew=-72.05]
+Epoch #5: test_reward: -57.211338 ± 0.000000, best_reward: -37.168471 ± 0.000000 in #1
+{'best_result': '-37.17 ± 0.00',
+ 'best_reward': -37.168470953107914,
+ 'duration': '205.21s',
+ 'test_episode': 6,
+ 'test_speed': '28.19 step/s',
+ 'test_step': 144,
+ 'test_time': '5.11s',
+ 'train_episode': 200,
+ 'train_speed': '24.99 step/s',
+ 'train_step': 5000,
+ 'train_time/collector': '44.69s',
+ 'train_time/model': '155.41s'}
