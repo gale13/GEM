@@ -19,10 +19,6 @@ class SinusoidalPosEmb(nn.Module):
         emb = torch.cat((emb.sin(), emb.cos()), dim=-1)
         return emb
 
-#-----------------------------------------------------------------------------#
-#---------------------------------- sampling ---------------------------------#
-#-----------------------------------------------------------------------------#
-
 
 def extract(a, t, x_shape):
     b, *_ = t.shape
@@ -31,10 +27,6 @@ def extract(a, t, x_shape):
 
 
 def cosine_beta_schedule(timesteps, s=0.008, dtype=torch.float32):
-    """
-    cosine schedule
-    as proposed in https://openreview.net/forum?id=-NEXDKk8gZ
-    """
     steps = timesteps + 1
     x = np.linspace(0, steps, steps)
     alphas_cumprod = np.cos(((x / steps) + s) / (1 + s) * np.pi * 0.5) ** 2
