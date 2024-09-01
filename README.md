@@ -1,6 +1,6 @@
 # Generate the topology
 Requirement:
-  pip install networkx
+> pip install networkx
   
 File: network/gennet.py
 
