@@ -14,7 +14,9 @@ Requirements:
 
 in Python
 > pip install tianshou==0.4.11
+>
 > pip install matplotlib==3.7.3
+> 
 > pip install scipy==1.10.1
 
 # Acknowledgements
