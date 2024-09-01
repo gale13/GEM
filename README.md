@@ -1,15 +1,12 @@
 # Generate the topology
-## File
-  network/gennet.py
+File: network/gennet.py
+
+Output: network.gml
 ## Parameters
 
 N: The number of nodes
 
 p: The probability of connecting any two nodes
-
-## Output
-
-network.gml
 
 # Acknowledgements
 This project uses some of the source code from the following repositories:
