@@ -60,13 +60,13 @@ class DiffusionOPT(BasePolicy):
         obs_ = to_torch(batch.obs, device=self._device, dtype=torch.float32)
         expert_actions = torch.Tensor([info["expert_action"] for info in batch.info]).to(self._device)
 
-        bc_loss = self._actor.loss(expert_actions, obs_).mean()
+        acloss = self._actor.loss(expert_actions, obs_).mean()
 
         if update:  # Update actor parameters if the update flag is True
             self._actor_optim.zero_grad()  # Zero the actor optimizer's gradients
-            bc_loss.backward()  # Backpropagate the loss
+            acloss.backward()  # Backpropagate the loss
             self._actor_optim.step()  # Perform a step of optimization
-        return bc_loss
+        return acloss
 
 
     def learn(
