@@ -11,7 +11,7 @@ from tianshou.utils import WandbLogger
 from env.distEnergy import DistEnergy
 from policy import DiffusionOPT
 from diffusion import Diffusion
-from diffusion.model import MLP,LstmRNN
+from diffusion.model import LstmRNN
  
 import warnings
 warnings.filterwarnings('ignore')
@@ -27,14 +27,10 @@ test_envs = DummyVectorEnv([lambda: DistEnergy() for _ in range(10)])
 #======================net========================================#
 
 # create actor
-actor_net = MLP(
-    state_dim=env_e.observation_space.shape[0],
-    action_dim=env_e.action_space.shape[0]
+actor_net = LstmRNN(
+    action_dim=env_e.action_space.shape[0],
+    state_dim = env_e.observation_space.shape[0]
 )
-#actor_net = LstmRNN(
-#    action_dim=env_e.action_space.shape[0],
-#    state_dim = env_e.observation_space.shape[0]
-#)
 
 # Actor is a Diffusion model
 actor = Diffusion(
