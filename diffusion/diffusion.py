@@ -1,8 +1,7 @@
-# Import necessary libraries
 import numpy as np
 import torch
 import torch.nn as nn
-# Import additional helper functions and utils
+
 from .helpers import (
     cosine_beta_schedule,
     linear_beta_schedule,
