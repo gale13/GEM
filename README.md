@@ -1,4 +1,7 @@
 # Generate the topology
+Requirement:
+  pip install networkx
+  
 File: network/gennet.py
 
 Output: network.gml
