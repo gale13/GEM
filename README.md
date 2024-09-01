@@ -4,7 +4,8 @@ Requirement:
   
 File: network/gennet.py
 
-Run: > python gennet.py
+Run: 
+> python gennet.py
 
 Output: network.gml
 
