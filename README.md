@@ -1,6 +1,11 @@
-# Generate the topology of the networked energy system
+# Generate the topology
 
-network/gennet.py
+  network/gennet.py
+## Parameters
+
+N //The number of nodes
+
+p //The probability of connecting any two nodes
 
 # Acknowledgements
 This project uses some of the source code from the following repositories:
