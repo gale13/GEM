@@ -23,7 +23,7 @@ class LstmRNN(nn.Module):
         self.hidden_size=hidden_size
  
         self.lstm = nn.LSTM(self.input_size, hidden_size, num_layers)  # utilize the LSTM model in torch.nn
-        self.linear1 = nn.Linear(hidden_size, action_dim) # 全连接层
+        self.linear1 = nn.Linear(hidden_size, action_dim) # fc
 
         _act = nn.ReLU
         self.state_mlp = nn.Sequential(
