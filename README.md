@@ -1,8 +1,10 @@
 # Generate the topology
 Requirement:
-> pip install networkx
+> pip install networkx==3.1
   
 File: network/gennet.py
+
+Run: > python gennet.py
 
 Output: network.gml
 
