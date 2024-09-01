@@ -6,16 +6,24 @@ File: network/gennet.py
 
 Output: network.gml
 
-Run: 
 > python gennet.py
 
 Parameters: N (the number of nodes), p (the probability of connecting any two nodes)
 
 # Main Process
+> python main.py
 
 Requirements:
 
-in Python
+Solver: Mosek (https://www.mosek.com/products/academic-licenses/)
+
+Logger: wandb (https://wandb.ai/)
+
+Python:
+> pip install cvxpy==1.5.2
+>
+> pip install wandb==0.17.3
+> 
 > pip install tianshou==0.4.11
 >
 > pip install matplotlib==3.7.3
