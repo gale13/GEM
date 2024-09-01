@@ -52,19 +52,12 @@ def vp_beta_schedule(timesteps, dtype=torch.float32):
     betas = 1 - alpha
     return torch.tensor(betas, dtype=dtype)
 
-#-----------------------------------------------------------------------------#
-#---------------------------------- losses -----------------------------------#
-#-----------------------------------------------------------------------------#
-
 class WeightedLoss(nn.Module):
 
     def __init__(self):
         super().__init__()
 
     def forward(self, pred, targ, weights=1.0):
-        '''
-            pred, targ : tensor [ batch_size x action_dim ]
-        '''
         loss = self._loss(pred, targ)
         weighted_loss = (loss * weights).mean()
         return weighted_loss
