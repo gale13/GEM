@@ -26,13 +26,11 @@ test_envs = DummyVectorEnv([lambda: DistEnergy() for _ in range(10)])
 
 #======================net========================================#
 
-# create actor
 actor_net = LstmRNN(
     action_dim=env_e.action_space.shape[0],
     state_dim = env_e.observation_space.shape[0]
 )
 
-# Actor is a Diffusion model
 actor = Diffusion(
     state_dim=env_e.observation_space.shape[0],
     action_dim=env_e.action_space.shape[0],
