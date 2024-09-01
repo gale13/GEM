@@ -6,9 +6,7 @@ from .helpers import SinusoidalPosEmb
 class LstmRNN(nn.Module):
     """
         Parameters：
-        - input_size: feature size
         - hidden_size: number of hidden units
-        - output_size: number of output
         - num_layers: layers of LSTM to stack
     """
  
