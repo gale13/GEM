@@ -80,7 +80,7 @@ class DiffusionOPT(BasePolicy):
         overall_loss.backward()
         self._actor_optim.step()
         return {
-            'overall_loss': overall_loss.item()  # Returns the overall loss as part of the results
+            'overall_loss': overall_loss.item() 
         }
 
 class GaussianNoise:
