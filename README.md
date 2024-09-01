@@ -4,10 +4,10 @@ Requirement:
   
 File: network/gennet.py
 
+Output: network.gml
+
 Run: 
 > python gennet.py
-
-Output: network.gml
 
 Parameters: N (the number of nodes), p (the probability of connecting any two nodes)
 
