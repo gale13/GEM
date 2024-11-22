@@ -21,6 +21,10 @@ weight_decay = 1e-5
 
 denoising_steps = 8
 
+network architecture
+
+![Real-world](/image/network.png "network")
+
 # Main Process
 > python main.py
 
