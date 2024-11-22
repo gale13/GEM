@@ -31,7 +31,7 @@ Python:
 > pip install scipy==1.10.1
 
 # Performance
-GAP to the optimal solution.
+The gap between GEM and the optimal solution (OPT).
 
 > Real-world Scenario
 ![Real-world](/image/real.png "Real-world")
