@@ -32,7 +32,10 @@ Python:
 
 # Performance
 GAP to the optimal solution.
-![这是图片](/assets/img/philly-magic-garden.jpg "Magic Gardens")
+
+![Real-world](/image/real.png "Real-world")
+
+![Simulation](/image/sim.png "Simulation")
 
 # Acknowledgements
 This project uses some of the source code from the following repositories:
