@@ -11,15 +11,15 @@ Output: network.gml
 Parameters: N (the number of nodes), p (the probability of connecting any two nodes)
 
 # Parameter Settings
-batch_size = 512
+Batch_size = 512
 
 Dummy_envs = 10
 
-learning_rate = 1e-5
+Learning_rate = 1e-5
 
-weight_decay = 1e-5
+Weight_decay = 1e-5
 
-denoising_steps = 8
+Denoising_steps = 8
 
 ## Network Architecture
 
