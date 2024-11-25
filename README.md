@@ -29,6 +29,8 @@ network architecture
 
 At each timestamp, the energy generation, demand of each device, and transmission cost are sampled from the distributions specified in the Table. 
 
+![table](/image/table.png "Table")
+
 # Main Process
 > python main.py
 
