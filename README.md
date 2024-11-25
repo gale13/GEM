@@ -48,6 +48,8 @@ Python:
 # Performance
 The gap between GEM and the optimal solution (OPT).
 
+In terms of specific values, in a real-world setting, the time average gap between GEM and OPT is 3.918. In the more random and complex environment of the simulation setting, the gap between GEM and OPT increases to 12.116. 
+
 > Real-world Scenario
 ![Real-world](/image/real.png "Real-world")
 
