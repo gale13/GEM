@@ -25,6 +25,10 @@ network architecture
 
 ![Real-world](/image/network.png "network")
 
+# Simulation Scenario
+
+At each timestamp, the energy generation, demand of each device, and transmission cost are sampled from the distributions specified in the Table. 
+
 # Main Process
 > python main.py
 
